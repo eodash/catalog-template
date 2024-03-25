@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "example_collection",
+  "stac_version": "1.0.0",
+  "description": "This can be **markdown** or a reference to a markdown file",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Example Collection"
+    }
+  ],
+  "themes": [
+    "example"
+  ],
+  "tags": [
+    "example tag"
+  ],
+  "agency": [
+    "Example agency"
+  ],
+  "subcode": "EX1",
+  "sensor": [
+    "Sensorname"
+  ],
+  "satellite": [
+    "Satellitename"
+  ],
+  "insituSources": [
+    "Other insitu data"
+  ],
+  "endpointtype": "WMS",
+  "title": "Example Collection",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T09:59:12.650368Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
