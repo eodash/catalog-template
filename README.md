@@ -1,5 +1,5 @@
 # catalog-template
-Template for creating eodash catalog repository
+Template for creating eodash catalog repository.
 
 ## How-to
 You can create a new repository using the "use this template" button.
