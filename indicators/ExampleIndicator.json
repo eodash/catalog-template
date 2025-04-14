@@ -1,7 +1,0 @@
-{
-  "Name": "Example Indicator",
-  "Title": "ExampleIndicator",
-  "EodashIdentifier": "ExampleIndicator",
-  "Description": "Merging two datasets together into one visualization",
-  "Collections": ["example_collection", "sample_custom_processor"]
-}
