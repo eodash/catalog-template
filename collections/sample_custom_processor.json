@@ -29,8 +29,8 @@
       "CustomParameter": "test",
       "STAC_Url": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/catalog.json",
       "Subset_Dates": [
-        "2024-03-07",
-        "2024-03-28"
+        "2025-03-07",
+        "2025-03-28"
       ]
     }
   ]
