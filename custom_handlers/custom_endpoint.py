@@ -8,8 +8,8 @@ def execute(
     endpoint_config: dict,
     collection_config: dict,
 ):
-    if "cerulean" not in catalog_config["title"].lower():
-        raise Exception("This demo handler should be run only on cerulean catalog.")
+    if "template catalog" not in catalog_config["title"].lower():
+        raise Exception("This demo handler should be run only on Template Catalog.")
     stac_endpoint_url = endpoint_config["STAC_Url"]
     api = Client.open(stac_endpoint_url)
 
