@@ -1,0 +1,224 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "d640cd22-672f-4b49-b5b1-5e4df776e65d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.21120961649372,
+          1.7488778389199375,
+          72.75380169222538
+        ],
+        [
+          -78.1719262468017,
+          1.7708454812758612,
+          72.7484436261565
+        ],
+        [
+          -78.19375743973426,
+          1.8103747858435324,
+          72.75429453052263
+        ],
+        [
+          -78.23304138753778,
+          1.788406685188166,
+          72.7484444353322
+        ],
+        [
+          -78.21120961649372,
+          1.7488778389199375,
+          72.75380169222538
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.23304138753778,
+    1.7488778389199375,
+    -78.1719262468017,
+    1.8103747858435324
+  ],
+  "properties": {
+    "start_datetime": "2025-03-07T03:44:47+00:00",
+    "end_datetime": "2025-03-07T03:44:48.199999+00:00",
+    "created": "2025-03-07T07:44:07.882063+00:00",
+    "updated": "2025-03-07T07:44:07.882087+00:00",
+    "platform": "Umbra-08",
+    "constellation": "umbra",
+    "providers": [
+      {
+        "name": "Umbra Lab Inc",
+        "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+        "roles": [
+          "producer",
+          "processor",
+          "licensor",
+          "host"
+        ],
+        "url": "https://umbra.space"
+      }
+    ],
+    "datetime": "2025-03-07T03:44:47.600000Z",
+    "umbra:grazing_angle_degrees": 65.35606187207492,
+    "umbra:squint_angle_engineering_degrees": 72.03531756910985,
+    "umbra:squint_angle_exploitation_degrees": -17.96468243089015,
+    "umbra:squint_angle_degrees_off_broadside": 17.96468243089015,
+    "umbra:slant_range_meters": 538237.0911764947,
+    "umbra:collect_id": "3aeb0eb3-d296-4884-976b-30f6cd0ef883",
+    "umbra:collect_ids": [
+      "3aeb0eb3-d296-4884-976b-30f6cd0ef883"
+    ],
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:task_id": "81751497-6e6e-4c02-8dd2-866371c1aee6",
+    "view:azimuth": 240.9373403588854,
+    "view:incidence_angle": 24.643938127925082,
+    "sar:product_type": "GEC",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:resolution_range": 0.9999999960566553,
+    "sar:resolution_azimuth": 1.0000000039987775,
+    "sar:frequency_band": "X",
+    "sar:looks_azimuth": 1,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:center_frequency": 9.567859540391238,
+    "sat:orbit_state": "ascending",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.1"
+    },
+    "license": "CC-BY-4.0"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "test_custom_processor"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "test_custom_processor"
+    }
+  ],
+  "assets": {
+    "2025-03-07-03-44-46_3aeb0eb3-d296-4884-976b-30f6cd0ef883.parquet": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/octet-stream",
+      "title": "RAW_COLLECT",
+      "description": "MONOSTATIC RAW_COLLECT",
+      "roles": [
+        "data"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08.stac.v2.json": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/geo+json",
+      "title": "STAC_METADATA",
+      "description": "MONOSTATIC STAC_METADATA",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_ANALYSIS.zip": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/octet-stream",
+      "title": "COLLECT_ANALYSIS",
+      "description": "MONOSTATIC COLLECT_ANALYSIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_CSI_MM.tif": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "CSI_TIFF",
+      "description": "MONOSTATIC CSI_TIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_CSI_SIDD_MM.nitf": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/vnd.nitf",
+      "title": "CSI_SIDD",
+      "description": "MONOSTATIC CSI_SIDD",
+      "roles": [
+        "data"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_MM.cphd": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/octet-stream",
+      "title": "CPHD",
+      "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+      "roles": [
+        "data"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_MM.json": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/json",
+      "title": "METADATA",
+      "description": "MONOSTATIC METADATA",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_MM.tif": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_SICD_MM.nitf": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_SICD_MM.xml": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/xml",
+      "title": "SICD_XML",
+      "description": "MONOSTATIC SICD_XML",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "2025-03-07-03-44-46_UMBRA-08_SIDD_MM.nitf": {
+      "href": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-03/2025-03-07/d640cd22-672f-4b49-b5b1-5e4df776e65d/",
+      "type": "application/vnd.nitf",
+      "title": "SIDD",
+      "description": "Sensor Independent Derived Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "test_custom_processor"
+}

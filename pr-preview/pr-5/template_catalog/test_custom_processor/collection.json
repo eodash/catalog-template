@@ -1,0 +1,110 @@
+{
+  "type": "Collection",
+  "id": "test_custom_processor",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./test_custom_processor/collection.json",
+      "type": "application/json",
+      "title": "test_custom_processor",
+      "endpointtype": "Custom-Endpoint",
+      "code": "test_custom_processor",
+      "id": "test_custom_processor",
+      "themes": [
+        "example theme"
+      ],
+      "tags": [
+        "example tag"
+      ],
+      "agency": [
+        "EEA"
+      ],
+      "subcode": "test_custom_processor",
+      "sensor": [
+        "example sensorname"
+      ],
+      "satellite": [
+        "example satellite"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    }
+  ],
+  "themes": [
+    "example theme"
+  ],
+  "tags": [
+    "example tag"
+  ],
+  "agency": [
+    "EEA"
+  ],
+  "subcode": "test_custom_processor",
+  "sensor": [
+    "example sensorname"
+  ],
+  "satellite": [
+    "example satellite"
+  ],
+  "title": "test_custom_processor",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -119.760078083394,
+          -33.91035250926993,
+          169.4869023786097,
+          64.52031922359077
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-03-06T23:59:58Z",
+          "2025-03-28T20:42:37.800001Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
