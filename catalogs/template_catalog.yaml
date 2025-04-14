@@ -7,3 +7,5 @@ default_overlay_layers: "layers/overlays"
 assets_endpoint: "https://raw.githubusercontent.com/organization/assets-repo/main/"
 collections:
   - example_collection
+  - ExampleIndicator
+  - sample_custom_processor
