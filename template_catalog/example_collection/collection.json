@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "example_collection",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "This can be **markdown** or a reference to a markdown file",
   "links": [
     {
@@ -107,12 +107,12 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2024-09-19T12:54:53.857744Z"
+          "2025-04-17T12:23:35.460805Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "EX1"

@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "example_collection",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "This can be **markdown** or a reference to a markdown file",
   "links": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "rel": "item",
-      "href": "./example_collection/1970/87ab5290-d871-4d0d-893a-c2e6357794d3.json",
-      "type": "application/json"
+      "href": "./example_collection/1970/50e2887e-1559-4dbc-93f0-4cf8ac55a636.json",
+      "type": "application/geo+json"
     },
     {
       "rel": "parent",
@@ -69,11 +69,11 @@
     "temporal": {
       "interval": [
         [
-          "2024-09-19T12:54:52.835752Z",
+          "2025-04-17T12:23:34.689740Z",
           null
         ]
       ]
     }
   },
-  "license": "proprietary"
+  "license": "other"
 }
