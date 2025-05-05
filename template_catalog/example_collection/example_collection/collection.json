@@ -24,7 +24,7 @@
     },
     {
       "rel": "item",
-      "href": "./example_collection/1970/50e2887e-1559-4dbc-93f0-4cf8ac55a636.json",
+      "href": "./example_collection/1970/5a1fc98d-7ac4-4f8f-b0a6-541201a8c1a8.json",
       "type": "application/geo+json"
     },
     {
@@ -69,7 +69,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-04-17T12:23:34.689740Z",
+          "2025-05-05T07:47:03.346208Z",
           null
         ]
       ]
