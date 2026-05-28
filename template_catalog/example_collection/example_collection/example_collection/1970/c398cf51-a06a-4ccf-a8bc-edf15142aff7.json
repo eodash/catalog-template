@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "4594dee1-21a6-43c6-a299-15b256e65b0f",
+  "id": "c398cf51-a06a-4ccf-a8bc-edf15142aff7",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-06-17T13:46:05.427825Z",
+    "end_datetime": "2026-05-28T10:25:48.398605Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -29,6 +29,10 @@
       "title": "Example Collection"
     }
   ],
-  "assets": {},
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
   "collection": "example_collection"
 }
