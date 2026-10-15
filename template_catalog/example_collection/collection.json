@@ -40,13 +40,13 @@
     },
     {
       "rel": "xyz",
-      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2025",
       "roles": [
         "baselayer"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2025"
     },
     {
       "rel": "xyz",
@@ -101,7 +101,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-05-28T10:25:48.398605Z"
+          "2026-10-15T12:14:16.531952Z"
         ]
       ]
     }

@@ -20,12 +20,11 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "4339eac4-f35b-4783-878b-f5a28d911fd7"
+      ]
     },
     {
       "rel": "item",
-      "href": "./example_collection/1970/c398cf51-a06a-4ccf-a8bc-edf15142aff7.json",
+      "href": "./example_collection/1970/5600758a-97b2-49c3-8f67-e66223fd325a.json",
       "type": "application/geo+json"
     },
     {
@@ -71,7 +70,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-05-28T10:25:48.398605Z"
+          "2026-10-15T12:14:16.531952Z"
         ]
       ]
     }
